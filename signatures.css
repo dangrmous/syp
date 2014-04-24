@@ -3,3 +3,44 @@
     width: 100px;
 
 }
+
+button {
+    margin: 10px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #333;
+
+    color: #fff;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+button {
+
+    padding: 0.6em 0.6em 0.7em;
+
+    background-color: #ccc;
+    border: 0;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    color: #555;
+    font: bold 1em/1.375 sans-serif;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #333;
+
+    color: #fff;
+}

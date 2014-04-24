@@ -9,6 +9,20 @@
   font-style: normal;
 }
 
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #333;
+
+    color: #fff;
+    text-decoration:none;
+    cursor:pointer;
+}
+
 .sigPad {
   margin: 0;
   padding: 0;
@@ -43,7 +57,7 @@
 }
 
 .sigPad button {
-  margin: 1em 0 0 0;
+
   padding: 0.6em 0.6em 0.7em;
 
   background-color: #ccc;
